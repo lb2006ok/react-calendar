@@ -1,0 +1,63 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  #root{
+    height: 100%;
+    width: 100%;
+  }
+}
+.main{
+  height: 100%;
+  width: 100%;
+}
+.flexbox{
+  color: #fff;
+  width: 100%;
+  height: 500px;
+  background: #00796b;
+}
+.MonthWrapper{
+  background-color:  #00796b;
+  .MonthCard{
+    display: inline-block;
+    .month{
+      text-align: center;
+      width: 100%;
+      background-color: #48a999;
+      display: block;
+    }
+    .WeekCard{
+      float: left;
+      height: 20px;
+      width: 10%;
+      list-style: none;
+      padding: 2%;
+      text-align: center;
+      line-height: 20px;
+    }
+    .DayContent{
+      padding: 0 0 20px 0;
+      margin: 0px;
+      width: 100%;
+      float: left;
+      overflow: hidden;
+    }
+    .DayCard{
+      float: left;
+      height: 20px;
+      width: 10%;
+      list-style: none;
+      padding: 2%;
+      text-align: center;
+      line-height: 20px;
+    }
+  }
+}
+
+
+.CurrentMonth{
+  background:#004c40;
+  .CurrentDay{
+    background: #00251a;
+  }
+}
